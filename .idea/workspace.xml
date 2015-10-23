@@ -37,8 +37,8 @@
       <file leaf-file-name="first.travis.yml " pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first.travis.yml ">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37688443">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -53,6 +53,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/STLParser.py" />
+        <option value="$PROJECT_DIR$/first.travis.yml " />
       </list>
     </option>
   </component>
@@ -317,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/first.travis.yml ">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.37688443">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
