@@ -69,7 +69,7 @@ class STLFile:
         #dt = numpy.dtype({'names': ['facet','vertex','end'],
         #                  'formats': ["3float32", "(3,3)float32,", "uint16"]})
         self.body = numpy.fromfile(self.f, dtype=dt, count=num)
-        print("z : ", self.body)
+        #print("z : ", self.body)
         if np == 0:
             self.vertex = list(map(self.for_map_vartex, self.body))
             self.facet = list(map(self.for_map_facet, self.body))
@@ -245,8 +245,8 @@ a.bin_parser(1)
 a.write_bin_file()
 print('name : ', a.namefile)
 #for i in range(len(a.facet)):
-print('facet\n', a.facet, " , type(a.facet[i]) : ", type(a.facet[0]))
-print('vertex\n', a.vertex, " , type(a.facet[i]) : ", type(a.facet[0]))
+#print('facet\n', a.facet, " , type(a.facet[i]) : ", type(a.facet[0]))
+#print('vertex\n', a.vertex, " , type(a.facet[i]) : ", type(a.facet[0]))
 
 """
 a = STLFile('Moon.stl')
