@@ -14,9 +14,10 @@ install:
   #- npm install
 # command to run tests
 
-script: python3 STLParser.py
-script: python3 coverage run UTest.py -m
-script: python3 -m coverage run STLParser.py
-script: python3 -m coverage report -m STLParser.py
-script: python3 -m coverage run UTest.py
-script: python3 -m coverage report -m UTest.py
+script:
+  - python3 STLParser.py
+  - python3 coverage run UTest.py -m
+  - python3 -m coverage run STLParser.py
+  - python3 -m coverage report -m STLParser.py
+  - python3 -m coverage run UTest.py
+  - python3 -m coverage report -m UTest.py
