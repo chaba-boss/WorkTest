@@ -41,6 +41,7 @@ class STLFile:
         self.vertex = self.p.body["vertex"]
         self.facet = self.p.body["facet"]
         self.Name = self.p.name
+        print("vertex0 : ", self.vertex[0], " , facet0 : ", self.facet[0], " , name : ", self.Name)
 
     def bin_parser(self, np = 0):
         '''
@@ -77,7 +78,7 @@ class STLFile:
             self.vertex = list(map(lambda x: x[1], self.body))
             self.facet = list(map(lambda x: x[0], self.body))
 
-        #print("vartex : ", self.vertex, "\nfacet : ", self.facet)
+        print("vertex0 : ", self.vertex[0], " , facet0 : ", self.facet[0], " , name : ", self.Name)
         self.f.close()
 
     def for_map_vartex(self, a):
@@ -93,6 +94,7 @@ class STLFile:
         space = ' '
         tab = space*4
         newLine = '\n'
+        print("write_file")
         if self.PathWithoutFileName != '':
             self.file = open(self.PathWithoutFileName+'/'+self.namefile+'_copy.'+self.ext, 'w')
         else:
@@ -126,6 +128,7 @@ class STLFile:
         space = ' '
         tab = space*4
         newLine = '\n'
+        print("write_bin_file")
         if self.PathWithoutFileName != '':
             self.file = open(self.PathWithoutFileName+'/'+self.namefile+'_copy.'+self.ext, 'wb')
         else:
@@ -230,21 +233,13 @@ class STLParse:
 #a = STLFile('ktoolcav.stl')
 #a = STLFile('FileSTL/ktoolcav.stl')
 a = STLFile('DiceCube_binary.stl')
-
-"""
-try:
-    a.read_file_lines()
-except:
-    a.numpy_parser()
-"""
-
 a.bin_parser(1)
-
-
-#a.read_file_lines()
-#a.Parse(1)
 a.write_bin_file()
-print('name : ', a.namefile)
+a = STLFile('DiceCube.stl')
+a.read_file_lines()
+a.Parse()
+a.write_file()
+#print('name : ', a.namefile)
 #for i in range(len(a.facet)):
 #print('facet\n', a.facet, " , type(a.facet[i]) : ", type(a.facet[0]))
 #print('vertex\n', a.vertex, " , type(a.facet[i]) : ", type(a.facet[0]))

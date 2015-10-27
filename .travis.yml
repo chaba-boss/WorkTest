@@ -19,5 +19,5 @@ script:
   - python3 coverage run UTest.py -m
   - python3 -m coverage run STLParser.py
   - python3 -m coverage report -m STLParser.py
-  - python3 -m coverage run UTest.py
-  - python3 -m coverage report -m UTest.py
+  #- python3 -m coverage run UTest.py
+  #- python3 -m coverage report -m UTest.py
