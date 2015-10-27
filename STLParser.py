@@ -117,6 +117,7 @@ class STLFile:
             cnt += 1
         string = 'endsolid ' + self.Name + '_copy\n'
         self.file.write(string)
+        self.file.close()
 
     def write_bin_file(self):
         '''
