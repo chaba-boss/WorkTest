@@ -8,7 +8,7 @@ python:
 sudo: false
 install:
   - pip3 install
-  - npm install
+  #- npm install
 # command to run tests
 
 script: STLParser.py
