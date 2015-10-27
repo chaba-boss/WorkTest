@@ -43,8 +43,8 @@ class SecondTestParser(ParserTests):
             a.Parse()
             a.write_file()
             print('name', a.Name)
-            print('vertex', a.vertex, "\nlen[vertex] : ", len(a.vertex))
-            print('facet', a.facet, "\nlen[facet] : ", len(a.facet))
+            #print('vertex', a.vertex, "\nlen[vertex] : ", len(a.vertex))
+            #print('facet', a.facet, "\nlen[facet] : ", len(a.facet))
 
     with Settings(max_examples=500):
         @given(st.lists(
@@ -91,8 +91,8 @@ class SecondTestParser(ParserTests):
             a.read_file_lines()
             a.Parse()
             print('name', a.Name)
-            print('vertex', a.vertex, "\nlen[vertex] : ", len(a.vertex))
-            print('facet', a.facet, "\nlen[facet] : ", len(a.facet))
+            #print('vertex', a.vertex, "\nlen[vertex] : ", len(a.vertex))
+            #print('facet', a.facet, "\nlen[facet] : ", len(a.facet))
 
 
 

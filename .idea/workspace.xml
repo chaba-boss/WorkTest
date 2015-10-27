@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feef4625-f4aa-41a8-8263-64ebae12b3d0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UTest.py" afterPath="$PROJECT_DIR$/UTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OBJParser.iws" />
@@ -26,29 +28,31 @@
       <file leaf-file-name="STLParser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/STLParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="12" />
+            <state vertical-scroll-proportion="-6.0">
+              <caret line="253" column="9" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40201005">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UTest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="15" />
-              <folding />
+            <state vertical-scroll-proportion="0.68926555">
+              <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+              <folding>
+                <element signature="e#41#79#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,6 +79,7 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/first.travis.yml " />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/UTest.py" />
       </list>
     </option>
   </component>
@@ -448,27 +453,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/STLParser.py">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="12" />
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STLParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="253" column="9" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40201005">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
+        <state vertical-scroll-proportion="0.68926555">
+          <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+          <folding>
+            <element signature="e#41#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

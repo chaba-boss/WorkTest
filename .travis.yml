@@ -5,7 +5,7 @@ python:
   # maintainers to fix their pypy-dev package.
   #- "pypy3"
 # command to install dependencies
-sudo: false
+sudo: required
 install:
   - pip3 install --upgrade pip
   - pip3 install hypothesis
