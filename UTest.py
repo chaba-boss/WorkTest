@@ -60,7 +60,7 @@ class SecondTestParser(ParserTests):
                        )
               )
         def test_parse(self, l):
-            print("************************l : ", l)
+            #print("************************l : ", l)
             self.file = open("Test.stl", 'w')
             self.file.write('solid TestSTL\n')
 
