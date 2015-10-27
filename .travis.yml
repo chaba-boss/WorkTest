@@ -7,7 +7,7 @@ python:
 # command to install dependencies
 sudo: required
 install:
-  - pip3 install --upgrade pip3
+  - pip3 install --upgrade pip
   #- pip3 install hypothesis
   - pip install -r requirements.txt
   #- pip3 install unittest
