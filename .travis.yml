@@ -5,6 +5,15 @@ python:
   # maintainers to fix their pypy-dev package.
   #- "pypy3"
 # command to install dependencies
+env:
+    - GIMME_OS=linux GIMME_ARCH=amd64
+    - GIMME_OS=linux GIMME_ARCH=386
+    - GIMME_OS=darwin GIMME_ARCH=amd64
+    - GIMME_OS=darwin GIMME_ARCH=386
+    - GIMME_OS=windows GIMME_ARCH=amd64
+    - GIMME_OS=windows GIMME_ARCH=386
+    - GIMME_OS=freebsd GIMME_ARCH=amd64
+    - GIMME_OS=freebsd GIMME_ARCH=386
 sudo: required
 install:
   - pip3 install --upgrade pip
@@ -16,7 +25,7 @@ install:
 
 script:
   - python3 STLParser.py
-  - python3 coverage run UTest.py -m
+  #- python3 coverage run UTest.py
   - python3 -m coverage run STLParser.py
   - python3 -m coverage report -m STLParser.py
   #- python3 -m coverage run UTest.py
