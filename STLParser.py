@@ -142,6 +142,7 @@ class STLFile:
             self.facet[i].tofile(self.file)
             self.vertex[i].tofile(self.file)
             self.body[i][2].tofile(self.file)
+        self.file.close()
 
 
 class STLParse:
