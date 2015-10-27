@@ -6,10 +6,7 @@ python:
   #- "pypy3"
 # command to install dependencies
 install:
-  #- pip3 install .
-  #- pip3 install -r requirements.txt
-
-  #- bundle install --path vendor/bundle
+  - pip3 install .
   - npm install
 # command to run tests
 
