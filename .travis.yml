@@ -15,4 +15,8 @@ install:
 # command to run tests
 
 script: python3 STLParser.py
-script: python3 -m unittest UTest.py -h
+script: python3 coverage run UTest.py -m
+script: python3 -m coverage run STLParser.py
+script: python3 -m coverage report -m STLParser.py
+script: python3 -m coverage run UTest.py
+script: python3 -m coverage report -m UTest.py
