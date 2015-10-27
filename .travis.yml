@@ -7,7 +7,8 @@ python:
 # command to install dependencies
 sudo: false
 install:
-  - pip3 install
+  - pip3 install hypothesis
+  - pip3 install unittest
   #- npm install
 # command to run tests
 
