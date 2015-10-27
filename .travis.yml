@@ -9,7 +9,7 @@ install:
   #- pip3 install .
   #- pip3 install -r requirements.txt
 
-  - bundle install --path vendor/bundle
+  #- bundle install --path vendor/bundle
   - npm install
 # command to run tests
 
