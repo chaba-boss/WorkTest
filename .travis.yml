@@ -9,7 +9,7 @@ sudo: false
 install:
   - pip3 install --upgrade pip
   - pip3 install hypothesis
-  - pip3 install unittest
+  #- pip3 install unittest
   #- npm install
 # command to run tests
 
