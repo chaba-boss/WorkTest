@@ -12,3 +12,4 @@ install:
 # command to run tests
 
 script: python3 STLParser.py
+        python3 -m unittest UTest.py
